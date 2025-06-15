@@ -1,18 +1,13 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-	title: "Phlex",
+	title: "Rails Boilerplate",
 	description: "object oriented view components in Ruby.",
 	sitemap: { hostname: "https://www.phlex.fun" },
 	lastUpdated: true,
 	themeConfig: {
 		search: {
 			provider: "local",
-			// options: {
-			// 	appId: "9KRQLH6PAZ",
-			// 	apiKey: "ad1d773445156475c945970616b76760",
-			// 	indexName: "phlex",
-			// },
 		},
 
 		editLink: {
@@ -22,20 +17,9 @@ export default defineConfig({
 		nav: [
 			{ text: "Home", link: "/" },
 			{ text: "Docs", link: "/introduction" },
-			{ text: "Support", link: "https://github.com/yippee-fun/phlex/discussions" },
-			{ text: "v1 Docs", link: "https://v1.phlex.fun" },
 		],
 
 		sidebar: [
-			{
-				text: "Project",
-				collapsed: false,
-				items: [
-					{ text: "Community", link: "/project/community" },
-					{ text: "GitHub", link: "https://github.com/phlex-ruby" },
-				],
-			},
-
 			{
 				text: "Introduction",
 				collapsed: false,
@@ -59,67 +43,10 @@ export default defineConfig({
 					{ text: "Testing", link: "/components/testing" },
 				],
 			},
-
-			{
-				text: "HTML & SVG",
-				collapsed: false,
-				items: [
-					{ text: "HTML elements", link: "/sgml/html-elements" },
-					{ text: "SVG elements", link: "/sgml/svg-elements" },
-					{ text: "Attributes", link: "/sgml/attributes" },
-					{ text: "Text", link: "/sgml/text" },
-					{ text: "Whitespace", link: "/sgml/whitespace" },
-					{ text: "Comments", link: "/sgml/comments" },
-					{ text: "Raw output", link: "/sgml/raw" },
-					{ text: "Doctype (HTML only)", link: "/sgml/doctype" },
-					{ text: "Helpers", link: "/sgml/helpers" },
-				],
-			},
-
-			{
-				text: "Rails",
-				collapsed: false,
-				items: [
-					{ text: "Adopting Phlex", link: "/rails/adopting-phlex" },
-					{ text: "Helpers", link: "/rails/helpers" },
-					{ text: "Views", link: "/rails/views" },
-					{ text: "Layouts", link: "/rails/layouts" },
-				],
-			},
-
-			{
-				text: "Miscellaneous",
-				collapsed: false,
-				items: [
-					{ text: "Literal Properties", link: "/miscellaneous/literal-properties" },
-					{ text: "Under the hood", link: "/miscellaneous/under-the-hood" },
-					{ text: "Upgrading to v2", link: "/miscellaneous/v2-upgrade" },
-					{ text: "Structural Safety", link: "/miscellaneous/structural-safety" },
-				],
-			},
-
-			{
-				text: "Technical Design",
-				collapsed: true,
-				items: [
-					{ text: "Attribute Caching", link: "/design/attribute-caching" },
-					// { text: "Performance" },
-					// { text: "Kits" },
-					// { text: "Rails Integration" },
-				],
-			},
-			{
-				text: "AI Prompt",
-				link: "/ai",
-			},
 		],
 
-		socialLinks: [{ icon: "github", link: "https://github.com/phlex-ruby" }],
-
 		footer: {
-			message: "Released under the MIT License.",
-			copyright:
-				'Made by <a href="https://joel.drapper.me">Joel Drapper</a>, <a href="https://github.com/willcosgrove">Will Cosgrove</a> and dozens of other <a href="https://github.com/phlex-ruby/phlex/graphs/contributors">contributors</a>.',
+			copyright: "Made by Timur Yalcin",
 		},
 	},
 });
