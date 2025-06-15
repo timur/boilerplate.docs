@@ -11,7 +11,7 @@ export default defineConfig({
 		},
 
 		editLink: {
-			pattern: "https://github.com/phlex-ruby/phlex.fun/edit/main/:path",
+			pattern: "https://github.com/timur/boilerplate.docs/edit/main/:path",
 		},
 
 		nav: [
@@ -23,12 +23,16 @@ export default defineConfig({
 			{
 				text: "Introduction",
 				collapsed: false,
+				items: [{ text: "Overview", link: "/introduction/" }],
+			},
+			{
+				text: "CSS",
+				collapsed: false,
 				items: [
-					{ text: "Overview", link: "/introduction/" },
-					{ text: "Getting started", link: "/introduction/getting-started" },
+					{ text: "Allgemein", link: "/css/csszero" },
+					{ text: "Farben", link: "/css/colors" },
 				],
 			},
-
 			{
 				text: "Components",
 				collapsed: false,
