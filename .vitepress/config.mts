@@ -34,12 +34,22 @@ export default defineConfig({
 				],
 			},
 			{
+				text: "Components",
+				collapsed: false,
+				items: [{ text: "Flash", link: "/components/flash" }],
+			},
+			{
 				text: "Claude",
 				collapsed: false,
 				items: [
 					{ text: "Calendar", link: "/claude/calendar" },
 					{ text: "Month Calendar", link: "/claude/monthcalendar" },
 				],
+			},
+			{
+				text: "Help",
+				collapsed: false,
+				items: [{ text: "Markdown", link: "/help/markdown" }],
 			},
 		],
 

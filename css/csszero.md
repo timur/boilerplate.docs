@@ -108,7 +108,7 @@ Hier am Beispiel von meiner head.rb Komponente.
   end
 ```
 
-Variables macht dann imports auf andere Files. Diese Files enthalten nur custom properties für css. Keine CSS Klassen.
+`variables.css` macht dann imports auf andere Files. Diese Files enthalten nur custom properties für css. Keine CSS Klassen.
 ```CSS
   @import url("animations.css");
   @import url("borders.css");
