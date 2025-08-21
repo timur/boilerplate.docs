@@ -36,7 +36,10 @@ export default defineConfig({
 			{
 				text: "Components",
 				collapsed: false,
-				items: [{ text: "Flash", link: "/components/flash" }],
+				items: [
+					{ text: "Flash", link: "/components/flash" },
+					{ text: "Codeblock", link: "/components/codeblock" },
+				],
 			},
 			{
 				text: "Help",
