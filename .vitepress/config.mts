@@ -42,6 +42,14 @@ export default defineConfig({
 				],
 			},
 			{
+				text: "Buchhaltung / Jahresabschluss",
+				collapsed: false,
+				items: [
+					{ text: "Aufbau - Bilanz", link: "/buchhaltung/bilanz" },
+					{ text: "Eröffnungsbilanzkonto - Schlussbilanzkonto", link: "/buchhaltung/eröffnung" },
+				],
+			},
+			{
 				text: "Help",
 				collapsed: false,
 				items: [{ text: "Markdown", link: "/help/markdown" }],
